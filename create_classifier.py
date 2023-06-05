@@ -25,6 +25,7 @@ def train_classifer(name):
 
             imgpath = path+pic
             img = Image.open(imgpath).convert('L')
+        #     img = cv2.equalizeHist(img)
             imageNp = np.array(img, 'uint8')
             id = int(pic.split(name)[0])
             #names[name].append(id)

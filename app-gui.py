@@ -4,8 +4,8 @@ from create_dataset import start_capture
 import tkinter as tk
 from tkinter import font as tkfont
 from tkinter import messagebox,PhotoImage
-#from PIL import ImageTk, Image
-#from gender_prediction import emotion,ageAndgender
+# from PIL import ImageTk, Image
+# from gender_prediction import emotion,ageAndgender
 names = set()
 
 
@@ -188,10 +188,10 @@ class PageFour(tk.Frame):
 
     def openwebcam(self):
         main_app(self.controller.active_name)
-    #def gender_age_pred(self):
-     #  ageAndgender()
-    #def emot(self):
-     #   emotion()
+    # def gender_age_pred(self):
+    #    ageAndgender()
+    # def emot(self):
+    #    emotion()
 
 
 
